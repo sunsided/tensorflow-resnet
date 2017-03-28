@@ -28,12 +28,10 @@ MIT license. Contributions welcome.
 
 ## Pretrained Model
 
-To convert the published Caffe pretrained model, run `convert.py`. However
-Caffe is annoying to install so I'm providing a download of the output of
-convert.py: 
-
-[tensorflow-resnet-pretrained-20160509.tar.gz.torrent](https://raw.githubusercontent.com/ry/tensorflow-resnet/master/data/tensorflow-resnet-pretrained-20160509.tar.gz.torrent)  464M
-
+The Caffe network weights have been converted to TensorFlow format using `convert.py` and are provided as a torrent
+for download: 
+[tensorflow-resnet-pretrained-20160509.tar.gz.torrent](https://raw.githubusercontent.com/sunsided/tensorflow-resnet/master/data/tensorflow-resnet-pretrained-20160509.tar.gz.torrent) (464M).
+Additionally, the checkpoints for ResNet-50, ResNet-101 and ResNet-152 are provided as [releases](https://github.com/sunsided/tensorflow-resnet/releases) for convenience.
 
 ## Notes
 
